@@ -1,4 +1,4 @@
-const count = true;
+const count = false;
 
 let countValue = new Promise(function (resolve, reject) {
     if (count) {
@@ -8,4 +8,19 @@ let countValue = new Promise(function (resolve, reject) {
     }
 });
 
-console.log(countValue);
+
+
+ // executes when promise is resolved successfully
+ countValue.then(
+    function successValue(result) {
+        console.log(result);
+    },
+ )
+
+// executes if there is an error
+.catch(
+    function errorValue(result) {
+        console.log(result);
+    }
+);
+ 
