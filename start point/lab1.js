@@ -2,7 +2,7 @@
 // {
 //     console.log("#######################");
 //     console.log("Hellow world, welcome to simple interest application");
-//     console.log("#######################");
+//     console.log("#######################");  
 
          
 //     var SI = (P*T*R)/100;
