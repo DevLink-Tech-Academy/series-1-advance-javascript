@@ -4,7 +4,7 @@
 //     console.log("Hellow world, welcome to simple interest application");
 //     console.log("#######################");
 
-    
+         
 //     var SI = (P*T*R)/100;
     
 //     console.log("#######################");
