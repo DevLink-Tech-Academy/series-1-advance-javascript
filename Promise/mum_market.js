@@ -1,4 +1,5 @@
 // Simulating your mum going to the market with a Promise
+
 function goMarket() {
     return new Promise((resolve, reject) => {
       // Simulating shopping process with a delay
